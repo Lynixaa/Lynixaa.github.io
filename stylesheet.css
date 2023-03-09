@@ -1,0 +1,110 @@
+body {
+  font-family: Candara, sans-serif;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #3f3f3f;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+
+#image {
+  width: 40%;
+  height: auto;
+  margin-right: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+#body {
+  font-family: Candara, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#top {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+
+img {
+  width: 40%;
+  height: auto;
+  margin-right: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ffffff;
+}
+
+.info {
+  flex: 1;
+}
+
+#name {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#text {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+.linkedin:hover {
+  color: mediumpurple;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+.linkedin {
+  color: plum;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
